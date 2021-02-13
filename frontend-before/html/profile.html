@@ -3,30 +3,30 @@
 
 <head>
 	<title>WebDEV Weekebd with WiT and Byld</title>
-	<link href="profile-style.css" rel="stylesheet">
+	<link href="../css/profile-style.css" rel="stylesheet">
 </head>
 
 <body>
 <div id="content">
   <div class="profile-card">
       <div class="card-front">
-        <img src="profile.jpeg">
+        <img src="../assets/profile.jpeg">
         <p class="caption">Artisan Pizza</p>
       </div>
   </div>
 
 <div class="profile-card">
       <div class="card-front">
-        <video controls="controls" src="clouds.mp4">
+        <video controls="controls" src="../assets/clouds.mp4">
 		    Your browser does not support the HTML5 Video element.
-		</video>
+		    </video>
         <p class="caption">A Cloudy Day</p>
       </div>
   </div>
 
 <div class="profile-card">
       <div class="card-front">
-        <img src="music.png" id="click-me" onclick="play_music()">
+        <img src="../assets/music.png" id="click-me" onclick="play_music()">
         <p class="caption">Music! Click me!</p>
       </div>
   </div>
@@ -34,13 +34,7 @@
 </body>
 <script type="text/javascript">
 	
-	let track = document.createElement('audio');
-
-	function play_music(){
-		track.src = "music.mp3";
-		track.load();
-		track.play();
-	}
+//Add JavaScript code for playing music on the webpage here
 
 </script>
 </html>
